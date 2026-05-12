@@ -30,8 +30,11 @@ Construir el primer backend con Node.js + Express, aprendiendo:
 src/
 ├── db/
 │   └── products.js          # Datos de ejemplo (mock data)
+├── helpers/
+│   ├── response.js          # Helpers ok() y fail() para respuestas estándar
+│   └── products.js          # Helpers de lógica de productos (getProductById)
 ├── routes/
-│   ├── index.routes.js      # Punto de entrada de rutas + 404 global
+│   ├── index.routes.js      # Punto de entrada de rutas + 404/500 global
 │   ├── health.routes.js     # Ruta de diagnóstico del servidor
 │   └── products.routes.js   # Rutas específicas de productos
 ├── app.js                   # Configuración de Express (middlewares + rutas)
