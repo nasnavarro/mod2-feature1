@@ -18,7 +18,7 @@ Construir el primer backend con Node.js + Express, aprendiendo:
 
 | Tecnología | Versión |
 |------------|---------|
-| Node.js    | 18+ (LTS) |
+| Node.js    | 20+ (LTS) |
 | Express    | 5.x     |
 | ES Modules | `"type": "module"` en `package.json` |
 
